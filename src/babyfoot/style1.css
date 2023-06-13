@@ -1,0 +1,23 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 3 avr. 2023, 16:58:58
+    Author     : xfour info
+*/
+.button {
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-position: relative;
+}
+.button:hover {
+    -fx-background-color: silver;
+}
+#root{
+    -fx-background-image: url("bk.jpg");
+    -fx-background-size: cover;
+    
+}

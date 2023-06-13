@@ -1,0 +1,29 @@
+
+#border {
+    -fx-background-image: url("foot-back.jpg");
+    -fx-background-size: cover;
+    
+}
+#team1{
+    -fx-padding: 60 60 ;
+}
+#team2{
+    -fx-padding: 20;
+}
+#vbox{
+    -fx-padding: 0 0 0 30;
+}
+#score1{
+    -fx-font-size:100;
+    -fx-font-weight:bolder;
+    
+    
+}
+#score2{
+    
+    -fx-font-size:100;
+    -fx-font-weight:bolder;
+    
+    
+}
+

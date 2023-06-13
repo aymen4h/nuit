@@ -1,0 +1,18 @@
+If you want to display text in the same scene when you hover over a button in JavaFX, you can use the `setOnMouseEntered` method of the `Button` class to set an event handler that changes the text of a `Label` or `Text` node. Here's an example:
+
+```java
+Button button = new Button("Hover over me");
+Label label = new Label();
+
+button.setOnMouseEntered(event -> {
+    label.setText("Button hovered");
+});
+
+button.setOnMouseExited(event -> {
+    label.setText("");
+});
+```
+
+This code creates a `Button` and a `Label`. When the mouse enters the button, the text of the label is set to "Button hovered". When the mouse exits the button, the text of the label is cleared.
+
+Is this what you were looking for?

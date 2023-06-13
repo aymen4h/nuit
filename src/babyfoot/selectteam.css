@@ -1,0 +1,28 @@
+#hbox{
+    -fx-background-image: url("selectteam-back.jpg");
+    -fx-background-size: cover;
+    
+}
+#grid1{
+    -fx-padding:150 50;
+}
+#grid2{
+    -fx-padding:150 70;
+}
+#btn{
+    -fx-font-size:40;
+    -fx-font-weight:bolder;
+    -fx-background-color:red;
+    -fx-text-fill: orange;
+    
+    -fx-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    -fx-font-style: italic;
+    
+}
+#btn1{
+    -fx-font-size:20;
+    -fx-font-weight:bolder;
+    -fx-background-color:red;
+    -fx-text-fill: orange;
+}
+
