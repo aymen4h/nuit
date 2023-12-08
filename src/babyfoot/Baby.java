@@ -63,7 +63,7 @@ public class Baby extends Application {
     
     
     
-    // Ajout de bouttons
+    // Ajout de boutton
     Image buttonImage1 = new Image("file:src/babyfoot/arbitrator.jpg");
     ImageView imageView1 = new ImageView(buttonImage1);
     Button imageButton1 = new Button();
