@@ -3,7 +3,7 @@
 
 VL53L0X sensor;
 const float alpha = 0.2; // Coefficient de lissage (0 < alpha < 1)
-float smoothedValue = 0; // Valeur lissée
+float smoothedValue = 0; // Valeur lisséee
 
 
 
